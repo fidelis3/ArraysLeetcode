@@ -22,7 +22,7 @@ def threeSum(nums):
                 while left < right and nums[right] == nums[right - 1]:
                     right -= 1
 
-                left += 1
+                left += 1   
                 right -= 1
 
             elif total < 0:
@@ -34,5 +34,9 @@ def threeSum(nums):
 
 
 # Example usage
-nums = [-1, 0, 1, 2, -1, -4]
-print(threeSum(nums))
+nums1 = [-1, 0, 1, 2, -1, -4]
+print(nums1.sort())
+
+
+print(threeSum(nums1))
+
